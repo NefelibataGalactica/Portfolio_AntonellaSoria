@@ -1,0 +1,59 @@
+/* COMENTARIOS, ASÍ. Para una o muchas líneas */
+
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+nav {
+    position: relative;
+}
+
+.header_holder {
+    background-color: #4D0033;
+    width: 100%;
+    height: 100px;
+}
+
+/*.logos {
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+}
+*/
+
+.header_principal {
+    background-image: linear-gradient(to right top, #4d0033, #620a38, #77193d, #8b2740, #9e3742, #aa4243, #b64e44, #c15a45, #c96445, #d06e46, #d67846, #dc8247);
+    width: 100%;
+    height: 658px;
+}
+
+li {
+    color: whitesmoke;
+}
+
+.acerca_de_mi .educacion .proyectos {
+    color: white;
+    width: 100%;
+    height: 658px;
+}
+
+.experiencia {
+    background-image: linear-gradient(to right bottom, #4d0033, #620a38, #77193d, #8b2740, #9e3742, #aa4243, #b64e44, #c15a45, #c96445, #d06e46, #d67846, #dc8247);
+    width: 100%;
+    height: 658px;
+}
+
+.skills {
+    background-image: linear-gradient(to right top, #4d0033, #620a38, #77193d, #8b2740, #9e3742, #aa4243, #b64e44, #c15a45, #c96445, #d06e46, #d67846, #dc8247);
+    width: 100%;
+    height: 658px;
+}
